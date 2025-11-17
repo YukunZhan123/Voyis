@@ -1,0 +1,50 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# Compiled binaries
+*.o
+*.so
+*.a
+*.dylib
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Test executables
+test_*
+!test_*.cpp
+
+# Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+
+# Core dumps
+core
+core.*
+
+# Generated documentation
+docs/html/
+docs/latex/
+
+# Backup files
+*.bak
+*.backup

@@ -1,0 +1,62 @@
+# Build directories
+build/
+cmake-build-*/
+bin/
+lib/
+
+# Compiled binaries
+*.o
+*.so
+*.a
+*.exe
+/image_generator
+/feature_extractor
+/data_logger
+build/bin/image_generator
+build/bin/feature_extractor
+build/bin/data_logger
+
+# Test data and results
+test_images/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+!cmake/*.cmake
+
+# Test results
+Testing/
+test_results/
+
+# Logs
+*.log
+
+# Demo video (will be uploaded separately)
+*.mp4
+*.avi
+*.mov
+
+# Keep the requirements PDF
+!Voyis*.pdf

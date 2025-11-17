@@ -22,7 +22,7 @@ class Publisher {
 public:
     /**
      * @brief Construct a publisher
-     * @param endpoint ZeroMQ endpoint (e.g., "tcp://*:5555")
+     * @param endpoint ZeroMQ endpoint (e.g., "tcp://\*:5555")
      */
     explicit Publisher(const std::string& endpoint);
     ~Publisher();
